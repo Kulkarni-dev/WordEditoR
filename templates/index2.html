@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page of AJProject</title>
+</head>
+<body>
+<center><h1>Welcome to text analyaaer</h1><br>
+<h2>Enter your text bellow</h2><br>
+<form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 600px; height: 300px;'></textarea><br>
+    <input type="checkbox" name="removepunc"> Remove Puncuations </input><br>
+    <input type="checkbox" name="fullcaps"> Full Capitalize </input><br>
+    <input type="checkbox" name="newlineremover"> New Line Remover </input><br>
+    <input type="checkbox" name="spaceremover"> Space Remover </input><br>
+    <input type="checkbox" name="charcount"> Character Count </input><br>
+    <button type="submit" style="width: 100px; height: 50px">Analyze Text</button>
+</form>
+</center>
+</body>
+</html>
